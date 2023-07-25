@@ -45,6 +45,8 @@ public class GreatestSumOfDigits {
         System.out.println("The greatest number is: " + greatestNumber);
         System.out.println("The sum of its digits is: " + sumOfDigits);
 
+	double average = (num1 + num2 + num3) / 3.0;
+				System.out.println("Average of the three numbers: " + average);
         scanner.close();
     }
 }
